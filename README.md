@@ -1,6 +1,10 @@
+<img width="905" height="163" alt="Maximus Logo" src="https://github.com/user-attachments/assets/0f59bed0-9b0b-4fc5-ad61-5086112c709e" />
+
+
 # Maximus-RGB-Controller
 
 The Maximus RGB Controller is a high-performance, DIY WS2812B addressable RGB lighting controller powered by the Raspberry Pi Pico (RP2040). It features custom multi-core firmware and native, zero-latency integration with SignalRGB using unlocked Raw USB (WinUSB) bulk endpoints.
+
 
 ## Features
 
@@ -10,6 +14,8 @@ The Maximus RGB Controller is a high-performance, DIY WS2812B addressable RGB li
 * **Persistent Flash Storage:** Automatically saves your speed, brightness, and colors to the Pico's flash memory with a 5-second auto-save cooldown to protect the physical flash wear.
 * **Dedicated Single-Interface Design:** Programmatically compiles out CDC Serial on boot, preventing Windows composite parent driver conflicts and ensuring stable USB discovery.
 ---
+
+<img width="1327" height="380" alt="signalrgb-logo" src="https://github.com/user-attachments/assets/fe2eeddc-1ab0-48aa-8748-bd1ec0debb1a" />
 
 ## Hardware Pin Mappings
 
